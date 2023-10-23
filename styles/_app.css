@@ -1,0 +1,130 @@
+.main_container{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+    margin: 2%;
+    
+}
+
+
+
+.assets_container{
+    /*background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(42, 42, 42) 90.2%);
+    */
+    
+    background: linear-gradient(black, rgb(122, 122, 137));
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 1%;
+}
+
+.internal_assets_container{
+    width: 80vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid rgb(161, 162, 165);
+    border-radius: 10px;
+    padding: 10px; 
+}
+
+.assets_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.assets_titles{
+    width: 80vw;
+    height: 35px;
+    border: 2px solid rgb(161, 162, 165);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.assets_titles_borrow{
+    width: 80vw;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin: 2% 0;
+}
+
+.paragraph1{
+    width: 8%;
+    border: 2px solid rgb(44, 46, 52);
+    border-radius: 5px;
+    padding: 3px; 
+    font-size: 1.8vw;
+    font-weight: 600;
+}
+.paragraph2{
+    width: 50%;
+    border: 2px solid rgb(44, 46, 52);
+    border-radius: 5px;
+    padding: 3px;
+}
+.transaction_button{
+    font-size: 1.8vw;
+    font-weight: 700;
+    height: 22px;
+    width: 10vw;
+    padding: 1px;
+    border-radius: 5px;
+    background-color: rgb(243, 243, 243);
+}
+
+.main_title{
+    color: white;
+    background-color: rgb(44, 46, 52);
+    width: 80vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    margin: auto;
+}
+
+.assets_titles_borrow h3{
+    margin-right: 10%;
+    margin-left: 2%;
+}
+
+.borrow_title{
+    font-size: 1.8vw;
+    height: 33px;
+    width: 11vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(44, 46, 52);
+    border-radius: 6px;
+}
+
+.row_container{
+    margin: 0 0;  
+    padding: 0 0;
+}
+
+
+
+.boton_loco{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(216, 219, 228);
+}
